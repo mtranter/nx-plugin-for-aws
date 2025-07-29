@@ -115,12 +115,6 @@ You will need to ensure your AWS environment has been appropriatly bootstrapped 
 CDK Bootstrapping is required for both your target deployment AWS region, and `us-east-1` to allow deployment of the WAF
 
 <NxCommands commands={['run infra:bootstrap']} />
-:::tip
-
-:::tip
-If you encounter any lint errors, you can run the following command to automatically fix them.
-
-<NxCommands commands={['run-many --target lint --configuration=fix --all']} />
 :::
 
 ## Step 4: Run the Frontend Locally
